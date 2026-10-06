@@ -1,0 +1,429 @@
+ENVT0100,LM:2026/07/08 17:44:28:695,DS:0000006310,CS:05937,MA:B0-68-E6-51-88-EE,EI:           
+sRCVersion="8.0.0"
+InputBitLabels {
+	nNumberOfLabels=26
+	Label1 {
+		nBit=519
+		sLabel="AutoMode"
+		sDescription=""
+	}
+	Label2 {
+		nBit=520
+		sLabel="StartAutoSeq"
+		sDescription=""
+	}
+	Label3 {
+		nBit=521
+		sLabel="ManualMode"
+		sDescription=""
+	}
+	Label4 {
+		nBit=522
+		sLabel="CycleProceed"
+		sDescription=""
+	}
+	Label5 {
+		nBit=523
+		sLabel="ToolReturnHome"
+		sDescription=""
+	}
+	Label6 {
+		nBit=524
+		sLabel="DryCycle"
+		sDescription=""
+	}
+	Label7 {
+		nBit=525
+		sLabel="BodyPresent"
+		sDescription=""
+	}
+	Label8 {
+		nBit=526
+		sLabel="LhKnifeRequired"
+		sDescription=""
+	}
+	Label9 {
+		nBit=527
+		sLabel="RhKnifeRequired"
+		sDescription=""
+	}
+	Label10 {
+		nBit=528
+		sLabel="KnifeInFeeder"
+		sDescription=""
+	}
+	Label11 {
+		nBit=529
+		sLabel="ConveyorStopped"
+		sDescription=""
+	}
+	Label12 {
+		nBit=530
+		sLabel="DebugTrack"
+		sDescription=""
+	}
+	Label13 {
+		nBit=541
+		sLabel="IsGuideRetained"
+		sDescription=""
+	}
+	Label14 {
+		nBit=550
+		sLabel="GripperOpen"
+		sDescription=""
+	}
+	Label15 {
+		nBit=551
+		sLabel="GripperClosed"
+		sDescription=""
+	}
+	Label16 {
+		nBit=560
+		sLabel="HMI_SetManualMotion"
+		sDescription=""
+	}
+	Label17 {
+		nBit=561
+		sLabel="HMI_SafeMovement"
+		sDescription=""
+	}
+	Label18 {
+		nBit=562
+		sLabel="HMI_GoToManualPos"
+		sDescription=""
+	}
+	Label19 {
+		nBit=563
+		sLabel="HMI_LockJoints"
+		sDescription=""
+	}
+	Label20 {
+		nBit=564
+		sLabel="HMI_FreeJoints"
+		sDescription=""
+	}
+	Label21 {
+		nBit=565
+		sLabel="HMI_Reset"
+		sDescription=""
+	}
+	Label22 {
+		nBit=566
+		sLabel="HMI_SetSpeed"
+		sDescription=""
+	}
+	Label23 {
+		nBit=567
+		sLabel="HMI_PowerLowHigh"
+		sDescription=""
+	}
+	Label24 {
+		nBit=568
+		sLabel="HMI_GetOffsets"
+		sDescription=""
+	}
+	Label25 {
+		nBit=569
+		sLabel="HMI_CalcOffset"
+		sDescription=""
+	}
+	Label26 {
+		nBit=570
+		sLabel="HMI_Offset_sel"
+		sDescription=""
+	}
+}
+InputByteLabels {
+	nNumberOfLabels=2
+	Label1 {
+		nByte=83
+		sLabel="HMI_GlobalSpeed"
+		sDescription=""
+	}
+	Label2 {
+		nByte=84
+		sLabel="HMI_SetManualPos"
+		sDescription=""
+	}
+}
+InputWordLabels {
+	nNumberOfLabels=16
+	Label1 {
+		nWord=34
+		sLabel="ConvOffset_X_L"
+		sDescription=""
+	}
+	Label2 {
+		nWord=35
+		sLabel="ConvOffset_X_H"
+		sDescription=""
+	}
+	Label3 {
+		nWord=36
+		sLabel="ConvOffset_Y_L"
+		sDescription=""
+	}
+	Label4 {
+		nWord=37
+		sLabel="ConvOffset_Y_H"
+		sDescription=""
+	}
+	Label5 {
+		nWord=38
+		sLabel="ConvOffset_Z_L"
+		sDescription=""
+	}
+	Label6 {
+		nWord=39
+		sLabel="ConvOffset_Z_H"
+		sDescription=""
+	}
+	Label7 {
+		nWord=40
+		sLabel="ConvOffset_U_L"
+		sDescription=""
+	}
+	Label8 {
+		nWord=41
+		sLabel="ConvOffset_U_H"
+		sDescription=""
+	}
+	Label9 {
+		nWord=42
+		sLabel="FeederOffset_X_L"
+		sDescription=""
+	}
+	Label10 {
+		nWord=43
+		sLabel="FeederOffset_X_H"
+		sDescription=""
+	}
+	Label11 {
+		nWord=44
+		sLabel="FeederOffset_Y_L"
+		sDescription=""
+	}
+	Label12 {
+		nWord=45
+		sLabel="FeederOffset_Y_H"
+		sDescription=""
+	}
+	Label13 {
+		nWord=46
+		sLabel="FeederOffset_Z_L"
+		sDescription=""
+	}
+	Label14 {
+		nWord=47
+		sLabel="FeederOffset_Z_H"
+		sDescription=""
+	}
+	Label15 {
+		nWord=48
+		sLabel="FeederOffset_U_L"
+		sDescription=""
+	}
+	Label16 {
+		nWord=49
+		sLabel="FeederOffset_U_H"
+		sDescription=""
+	}
+}
+OutputBitLabels {
+	nNumberOfLabels=5
+	Label1 {
+		nBit=520
+		sLabel="AtHomePos"
+		sDescription=""
+	}
+	Label2 {
+		nBit=545
+		sLabel="Gripper"
+		sDescription=""
+	}
+	Label3 {
+		nBit=546
+		sLabel="WorkDone"
+		sDescription=""
+	}
+	Label4 {
+		nBit=547
+		sLabel="PickKnifeRequired"
+		sDescription=""
+	}
+	Label5 {
+		nBit=548
+		sLabel="PickKnifeAck"
+		sDescription=""
+	}
+}
+OutputByteLabels {
+	nNumberOfLabels=4
+	Label1 {
+		nByte=76
+		sLabel="ReachedPos"
+		sDescription="Last Position Reached From Robot"
+	}
+	Label2 {
+		nByte=77
+		sLabel="FaultNum"
+		sDescription=""
+	}
+	Label3 {
+		nByte=78
+		sLabel="WarningNum"
+		sDescription=""
+	}
+	Label4 {
+		nByte=79
+		sLabel="RobotCurrentSpeed"
+		sDescription=""
+	}
+}
+OutputWordLabels {
+	nNumberOfLabels=8
+	Label1 {
+		nWord=40
+		sLabel="Offset_X_L"
+		sDescription=""
+	}
+	Label2 {
+		nWord=41
+		sLabel="Offset_X_H"
+		sDescription=""
+	}
+	Label3 {
+		nWord=42
+		sLabel="Offset_Y_L"
+		sDescription=""
+	}
+	Label4 {
+		nWord=43
+		sLabel="Offset_Y_H"
+		sDescription=""
+	}
+	Label5 {
+		nWord=44
+		sLabel="Offset_Z_L"
+		sDescription=""
+	}
+	Label6 {
+		nWord=45
+		sLabel="Offset_Z_H"
+		sDescription=""
+	}
+	Label7 {
+		nWord=46
+		sLabel="Offset_U_L"
+		sDescription=""
+	}
+	Label8 {
+		nWord=47
+		sLabel="Offset_U_H"
+		sDescription=""
+	}
+}
+MemoryBitLabels {
+	nNumberOfLabels=19
+	Label1 {
+		nBit=0
+		sLabel="M_AutoMode"
+		sDescription=""
+	}
+	Label2 {
+		nBit=1
+		sLabel="M_ManualMode"
+		sDescription=""
+	}
+	Label3 {
+		nBit=2
+		sLabel="M_StartAutoSeq"
+		sDescription=""
+	}
+	Label4 {
+		nBit=3
+		sLabel="M_CycleProceed"
+		sDescription=""
+	}
+	Label5 {
+		nBit=4
+		sLabel="M_KnifeInFeeder"
+		sDescription=""
+	}
+	Label6 {
+		nBit=5
+		sLabel="M_BodyPresent"
+		sDescription=""
+	}
+	Label7 {
+		nBit=6
+		sLabel="M_LhKnifeRequired"
+		sDescription=""
+	}
+	Label8 {
+		nBit=7
+		sLabel="M_RhKnifeRequired"
+		sDescription=""
+	}
+	Label9 {
+		nBit=8
+		sLabel="M_ToolReturnHome"
+		sDescription=""
+	}
+	Label10 {
+		nBit=9
+		sLabel="M_ConveyorStopped"
+		sDescription=""
+	}
+	Label11 {
+		nBit=10
+		sLabel="M_HMI_Home"
+		sDescription=""
+	}
+	Label12 {
+		nBit=11
+		sLabel="M_HMI_Tray"
+		sDescription=""
+	}
+	Label13 {
+		nBit=12
+		sLabel="M_HMI_AppPick"
+		sDescription=""
+	}
+	Label14 {
+		nBit=13
+		sLabel="M_HMI_Pick"
+		sDescription=""
+	}
+	Label15 {
+		nBit=14
+		sLabel="M_HMI_AppLeft"
+		sDescription=""
+	}
+	Label16 {
+		nBit=15
+		sLabel="M_HMI_AppRight"
+		sDescription=""
+	}
+	Label17 {
+		nBit=16
+		sLabel="M_HMI_PlaceLeft"
+		sDescription=""
+	}
+	Label18 {
+		nBit=17
+		sLabel="M_HMI_PlaceRight"
+		sDescription=""
+	}
+	Label19 {
+		nBit=18
+		sLabel="M_IsGuideRetained"
+		sDescription=""
+	}
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}

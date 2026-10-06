@@ -1,0 +1,8 @@
+ENVT0100,LM:2026/05/07 17:13:35:891,DS:0000000234,CS:09493,MA:B0-68-E6-51-88-EE,EI:           
+sRCVersion="7.5.4"
+nNumberOfLabels=1
+Label1 {
+	nError=8000
+	sLabel="MotionAreaError"
+	sMessage="Robot is out of its motion area"
+}

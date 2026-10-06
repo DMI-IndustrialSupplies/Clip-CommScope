@@ -1,0 +1,394 @@
+ENVT0100,LM:2026/05/07 19:57:46:341,DS:0000005818,CS:04955,MA:B0-68-E6-51-88-EE,EI:           
+sRCVersion="7.5.4"
+InputBitLabels {
+	nNumberOfLabels=31
+	Label1 {
+		nBit=512
+		sLabel="Start1"
+		sDescription=""
+	}
+	Label2 {
+		nBit=513
+		sLabel="Pause1"
+		sDescription=""
+	}
+	Label3 {
+		nBit=514
+		sLabel="Continue1"
+		sDescription=""
+	}
+	Label4 {
+		nBit=515
+		sLabel="Abortar1"
+		sDescription=""
+	}
+	Label5 {
+		nBit=516
+		sLabel="Reset1"
+		sDescription=""
+	}
+	Label6 {
+		nBit=517
+		sLabel="HardReset1"
+		sDescription="Hard reset (Reset Palletize counters)"
+	}
+	Label7 {
+		nBit=519
+		sLabel="AutoMode"
+		sDescription=""
+	}
+	Label8 {
+		nBit=520
+		sLabel="StartAutoSeq"
+		sDescription=""
+	}
+	Label9 {
+		nBit=521
+		sLabel="ManualMode"
+		sDescription=""
+	}
+	Label10 {
+		nBit=522
+		sLabel="CycleProceed"
+		sDescription=""
+	}
+	Label11 {
+		nBit=523
+		sLabel="ToolReturnHome"
+		sDescription=""
+	}
+	Label12 {
+		nBit=524
+		sLabel="DryCycle"
+		sDescription=""
+	}
+	Label13 {
+		nBit=525
+		sLabel="AssyPresent"
+		sDescription=""
+	}
+	Label14 {
+		nBit=526
+		sLabel="IsLastStationOK"
+		sDescription=""
+	}
+	Label15 {
+		nBit=529
+		sLabel="ConveyorStopped"
+		sDescription=""
+	}
+	Label16 {
+		nBit=541
+		sLabel="GoodBox1Available"
+		sDescription=""
+	}
+	Label17 {
+		nBit=542
+		sLabel="GoodBox2Available"
+		sDescription=""
+	}
+	Label18 {
+		nBit=543
+		sLabel="ScrapBoxAvailable"
+		sDescription=""
+	}
+	Label19 {
+		nBit=550
+		sLabel="GripperOpen"
+		sDescription=""
+	}
+	Label20 {
+		nBit=551
+		sLabel="GripperClosed"
+		sDescription=""
+	}
+	Label21 {
+		nBit=560
+		sLabel="HMI_SetManualMotion"
+		sDescription=""
+	}
+	Label22 {
+		nBit=561
+		sLabel="HMI_SafeMovement"
+		sDescription=""
+	}
+	Label23 {
+		nBit=562
+		sLabel="HMI_GoToManualPos"
+		sDescription=""
+	}
+	Label24 {
+		nBit=563
+		sLabel="HMI_LockJoints"
+		sDescription=""
+	}
+	Label25 {
+		nBit=564
+		sLabel="HMI_FreeJoints"
+		sDescription=""
+	}
+	Label26 {
+		nBit=565
+		sLabel="HMI_Reset"
+		sDescription=""
+	}
+	Label27 {
+		nBit=566
+		sLabel="HMI_SetSpeed"
+		sDescription=""
+	}
+	Label28 {
+		nBit=567
+		sLabel="HMI_PowerLowHigh"
+		sDescription=""
+	}
+	Label29 {
+		nBit=568
+		sLabel="HMI_GetOffsets"
+		sDescription=""
+	}
+	Label30 {
+		nBit=569
+		sLabel="HMI_CalcOffset"
+		sDescription=""
+	}
+	Label31 {
+		nBit=570
+		sLabel="HMI_Offset_sel"
+		sDescription=""
+	}
+}
+InputByteLabels {
+	nNumberOfLabels=2
+	Label1 {
+		nByte=83
+		sLabel="HMI_GlobalSpeed"
+		sDescription=""
+	}
+	Label2 {
+		nByte=84
+		sLabel="HMI_SetManualPos"
+		sDescription=""
+	}
+}
+InputWordLabels {
+	nNumberOfLabels=8
+	Label1 {
+		nWord=32
+		sLabel="ConvOffset_X_L"
+		sDescription=""
+	}
+	Label2 {
+		nWord=33
+		sLabel="ConvOffset_X_H"
+		sDescription=""
+	}
+	Label3 {
+		nWord=34
+		sLabel="ConvOffset_Y_L"
+		sDescription=""
+	}
+	Label4 {
+		nWord=35
+		sLabel="ConvOffset_Y_H"
+		sDescription=""
+	}
+	Label5 {
+		nWord=36
+		sLabel="ConvOffset_Z_L"
+		sDescription=""
+	}
+	Label6 {
+		nWord=37
+		sLabel="ConvOffset_Z_H"
+		sDescription=""
+	}
+	Label7 {
+		nWord=38
+		sLabel="ConvOffset_U_L"
+		sDescription=""
+	}
+	Label8 {
+		nWord=39
+		sLabel="ConvOffset_U_H"
+		sDescription=""
+	}
+}
+OutputBitLabels {
+	nNumberOfLabels=1
+	Label1 {
+		nBit=545
+		sLabel="Gripper"
+		sDescription=""
+	}
+}
+OutputByteLabels {
+	nNumberOfLabels=4
+	Label1 {
+		nByte=76
+		sLabel="ReachedPos"
+		sDescription="Last Position Reached From Robot"
+	}
+	Label2 {
+		nByte=77
+		sLabel="FaultNum"
+		sDescription=""
+	}
+	Label3 {
+		nByte=78
+		sLabel="WarningNum"
+		sDescription=""
+	}
+	Label4 {
+		nByte=79
+		sLabel="RobotCurrentSpeed"
+		sDescription=""
+	}
+}
+OutputWordLabels {
+	nNumberOfLabels=8
+	Label1 {
+		nWord=32
+		sLabel="Offset_X_L"
+		sDescription=""
+	}
+	Label2 {
+		nWord=33
+		sLabel="Offset_X_H"
+		sDescription=""
+	}
+	Label3 {
+		nWord=34
+		sLabel="Offset_Y_L"
+		sDescription=""
+	}
+	Label4 {
+		nWord=35
+		sLabel="Offset_Y_H"
+		sDescription=""
+	}
+	Label5 {
+		nWord=36
+		sLabel="Offset_Z_L"
+		sDescription=""
+	}
+	Label6 {
+		nWord=37
+		sLabel="Offset_Z_H"
+		sDescription=""
+	}
+	Label7 {
+		nWord=38
+		sLabel="Offset_U_L"
+		sDescription=""
+	}
+	Label8 {
+		nWord=39
+		sLabel="Offset_U_H"
+		sDescription=""
+	}
+}
+MemoryBitLabels {
+	nNumberOfLabels=19
+	Label1 {
+		nBit=0
+		sLabel="M_AutoMode"
+		sDescription=""
+	}
+	Label2 {
+		nBit=1
+		sLabel="M_ManualMode"
+		sDescription=""
+	}
+	Label3 {
+		nBit=2
+		sLabel="M_StartAutoSeq"
+		sDescription=""
+	}
+	Label4 {
+		nBit=3
+		sLabel="M_CycleProceed"
+		sDescription=""
+	}
+	Label5 {
+		nBit=5
+		sLabel="M_AssyPresent"
+		sDescription=""
+	}
+	Label6 {
+		nBit=6
+		sLabel="M_IsLastStationOK"
+		sDescription=""
+	}
+	Label7 {
+		nBit=8
+		sLabel="M_ToolReturnHome"
+		sDescription=""
+	}
+	Label8 {
+		nBit=9
+		sLabel="M_ConveyorStopped"
+		sDescription=""
+	}
+	Label9 {
+		nBit=10
+		sLabel="M_HMI_Home"
+		sDescription=""
+	}
+	Label10 {
+		nBit=11
+		sLabel="M_HMI_Tray"
+		sDescription=""
+	}
+	Label11 {
+		nBit=12
+		sLabel="M_HMI_AppPick"
+		sDescription=""
+	}
+	Label12 {
+		nBit=13
+		sLabel="M_HMI_Pick"
+		sDescription=""
+	}
+	Label13 {
+		nBit=14
+		sLabel="M_HMI_AppAccepted"
+		sDescription=""
+	}
+	Label14 {
+		nBit=15
+		sLabel="M_HMI_AppScrap"
+		sDescription=""
+	}
+	Label15 {
+		nBit=16
+		sLabel="M_HMI_PlaceAccepted"
+		sDescription=""
+	}
+	Label16 {
+		nBit=17
+		sLabel="M_HMI_PlaceScrap"
+		sDescription=""
+	}
+	Label17 {
+		nBit=18
+		sLabel="M_GoodBox1Available"
+		sDescription=""
+	}
+	Label18 {
+		nBit=19
+		sLabel="M_GoodBox2Available"
+		sDescription=""
+	}
+	Label19 {
+		nBit=20
+		sLabel="M_ScrapBoxAvailable"
+		sDescription=""
+	}
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Backup>
+  <DateAndTime>07/22/2026 12:31:56</DateAndTime>
+  <Name>Sta010_Vision_B</Name>
+  <Model>8402</Model>
+  <FirmwareVersion>6.02.01 (029)</FirmwareVersion>
+  <CdsMode>classic</CdsMode>
+  <CdsServer>0.0.0.0:52442</CdsServer>
+  <Language>English</Language>
+  <RenamedFiles />
+</Backup>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRunReport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Job />
+	<StartTime>2026-04-07T08:44:36-06:00</StartTime>
+	<StopTime>2026-04-07T08:44:36-06:00</StopTime>
+	<Sensor>Sta010_Vision_A</Sensor>
+	<UserName>admin</UserName>
+	<RunBy>ISP</RunBy>
+	<ValidationFolder Name="TestRun Folder">
+		<ValidationFolder Name="Job Tests" BrowseName="Job Tests" Variant="Job">
+			<ValidationFolder Name="Setup Actions" BrowseName="Job Setup" />
+			<ValidationFolder Name="Limit Tests" BrowseName="Job Limits" />
+			<ValidationFolder Name="Images" BrowseName="Job Images" />
+		</ValidationFolder>
+	</ValidationFolder>
+</TestRunReport>
